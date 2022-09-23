@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard page it should render blank table component 1`] = `
+<table
+  className="Table"
+>
+  <thead
+    className="TableHeader"
+  >
+    <tr>
+      <th>
+        Brewery Name
+      </th>
+      <th>
+        Brewery Type
+      </th>
+      <th>
+        City
+      </th>
+      <th>
+        Country
+      </th>
+      <th>
+        Rating
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody
+    className="TableBody"
+  />
+</table>
+`;
+
+exports[`Dashboard page it should render dashboard component 1`] = `
+<div
+  className="MainSection"
+>
+  <h2>
+    Open Brewery DataBase
+  </h2>
+  <div
+    className="TableSection"
+  >
+    <div
+      className="TableWrapper"
+    >
+      <Table
+        columns={
+          Array [
+            "Brewery Name",
+            "Brewery Type",
+            "City",
+            "Country",
+            "Rating",
+            "",
+          ]
+        }
+        onEdit={[Function]}
+        tableData={Array []}
+      />
+      <Pagination
+        currentPage={1}
+        handlePageChange={[Function]}
+      />
+    </div>
+    <div
+      className="FormWrapper"
+    >
+      <Form
+        data={null}
+        handleEdit={[Function]}
+        isEdit={false}
+        onAdd={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard page it should render form component 1`] = `
+<div>
+  <h2>
+    Add/Edit Brewery Details
+  </h2>
+  <form
+    className="FormSection"
+  >
+    <div
+      className="FormRow"
+    >
+      <label>
+        Brewery Name
+      </label>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="FormRow"
+    >
+      <label>
+        Brewery Type
+      </label>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="FormRow"
+    >
+      <label>
+        City
+      </label>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="FormRow"
+    >
+      <label>
+        Country
+      </label>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="FormRow"
+    >
+      <label>
+        Rating
+      </label>
+      <input
+        onChange={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+  </form>
+  <button
+    className="FormButton"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`Dashboard page it should render pagination component 1`] = `
+<div
+  className="PaginationSection"
+>
+  <button
+    className="PaginateButton"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Previous
+  </button>
+  <span>
+    1
+  </span>
+  <button
+    className="PaginateButton"
+    onClick={[Function]}
+  >
+    Next
+  </button>
+</div>
+`;
+
+exports[`Dashboard page it should render table component with Data 1`] = `
+<table
+  className="Table"
+>
+  <thead
+    className="TableHeader"
+  >
+    <tr>
+      <th>
+        Brewery Name
+      </th>
+      <th>
+        Brewery Type
+      </th>
+      <th>
+        City
+      </th>
+      <th>
+        Country
+      </th>
+      <th>
+        Rating
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody
+    className="TableBody"
+  />
+</table>
+`;

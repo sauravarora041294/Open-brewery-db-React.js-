@@ -1,0 +1,15 @@
+.FormRow {
+    display: flex;
+    margin: 8px;
+
+    label, 
+    input {
+        flex: 0 0 120px;
+    }
+}
+
+.FormButton {
+    padding: 8px;
+    margin: 8px;
+    width: 72px;
+}

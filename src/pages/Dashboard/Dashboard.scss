@@ -1,0 +1,16 @@
+.MainSection {
+  padding: 8px;
+  
+  .TableSection {
+    display: flex;
+    flex-direction: row;
+    
+    .TableWrapper {
+      flex: 0 0 60%;
+    }
+
+    .FormWrapper {
+      flex: 0 0 40%;
+    }
+  }
+}

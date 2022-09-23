@@ -1,0 +1,1 @@
+export const DASHBOARD_ITEMS_PER_PAGE = 10;
